@@ -1,0 +1,17 @@
+{
+  "name": "silk-core",
+  "version": "0.0.1",
+  "description": "Core components for the silk framework",
+  "main": "./dist/silk.core.js",
+  "scripts": {
+    "build": "tsc --outDir ./dist ./src/js/*.ts"
+  },
+  "author": "idfive.com",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.2.2"
+  }
+}
