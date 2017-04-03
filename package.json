@@ -8,9 +8,6 @@
   },
   "author": "idfive.com",
   "license": "ISC",
-  "dependencies": {
-    "normalize.css": "^6.0.0"
-  },
   "devDependencies": {
     "typescript": "^2.2.2"
   }
