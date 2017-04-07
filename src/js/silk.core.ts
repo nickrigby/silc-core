@@ -1,1 +1,7 @@
-document.body.classList.add('js');
+export class SilkCore {
+
+    constructor() {
+        document.body.classList.add('js');
+    }
+
+}

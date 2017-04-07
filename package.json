@@ -1,14 +1,21 @@
 {
   "name": "silk-core",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Core components for the silk framework",
   "main": "./dist/silk.core.js",
   "scripts": {
     "build": "tsc --outDir ./dist ./src/js/*.ts"
   },
-  "author": "idfive.com",
+  "author": {
+    "name": "Nick Rigby",
+    "email": "nick.rigby@gmail.com",
+    "url": "https://nickrigby.uk"
+  },
   "license": "ISC",
   "devDependencies": {
     "typescript": "^2.2.2"
+  },
+  "repository": {
+    "url": "https://github.com/nickrigby/silk-core"
   }
 }
