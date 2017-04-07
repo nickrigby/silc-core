@@ -1,7 +1,6 @@
-$font_base_size: 16px !default;
-$link-color: blue !default;
-
-$breakpoints: (
+$silk-core--font-size: 16px !default;
+$silk-core--link-color: blue !default;
+$silk-core--breakpoints: (
     ("small", "400px"),
     ("medium", "800px"),
     ("large", "1200px")
