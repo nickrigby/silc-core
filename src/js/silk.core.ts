@@ -1,1 +1,1 @@
-var hello = 'world';
+document.body.classList.add('js');
