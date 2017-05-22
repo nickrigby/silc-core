@@ -1,8 +1,8 @@
 {
-  "name": "silk-core",
-  "version": "0.1.2",
-  "description": "Core components for the silk framework",
-  "main": "./dist/silk.core.js",
+  "name": "silc-core",
+  "version": "0.2.0",
+  "description": "Core components for the silc framework",
+  "main": "./dist/silc.core.js",
   "scripts": {
     "build": "tsc --outDir ./dist ./src/js/*.ts"
   },
@@ -16,6 +16,6 @@
     "typescript": "^2.2.2"
   },
   "repository": {
-    "url": "https://github.com/nickrigby/silk-core"
+    "url": "https://github.com/nickrigby/silc-core"
   }
 }

@@ -1,1 +1,1 @@
-# silk-core
+# silc-core
