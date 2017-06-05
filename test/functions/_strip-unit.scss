@@ -1,0 +1,10 @@
+@include test-module('em') {
+  @include test('should return number less unit') {
+    $values: (16px, 16rem);
+    $expected: 16;
+
+    @each $value in $values {
+        @include assert-equal(strip-unit($value), $expected);
+    }
+  }
+}

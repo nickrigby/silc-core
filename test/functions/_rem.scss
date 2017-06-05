@@ -1,0 +1,17 @@
+@include test-module('em') {
+  @include test('should return rem size based on specified size in pixels') {
+    $values: (16px, 16);
+    $expected: 1rem;
+
+    @each $value in $values {
+        @include assert-equal(rem($value), $expected);
+    }
+  }
+
+  @include test('should return em size based on specified size and context in pixels') {
+    $actual: rem(16px, 16px);
+    $expected: 1rem;
+
+    @include assert-equal($actual, $expected);
+  }
+}
