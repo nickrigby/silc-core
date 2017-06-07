@@ -1,0 +1,17 @@
+@include describe('media [mixin]') {
+    @include it('outputs a media query based on passed in breakpoint name') {
+        @include assert {
+            @include output {
+                @include media ('large') {
+                    font-size: 12px;
+                }
+            }
+
+            @include expect {
+                @media (min-width: 1200px) {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
