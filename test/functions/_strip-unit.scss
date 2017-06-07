@@ -1,5 +1,5 @@
-@include test-module('em') {
-  @include test('should return number less unit') {
+@include describe('strip-unit [function]') {
+  @include it('should return number less unit') {
     $values: (16px, 16rem);
     $expected: 16;
 

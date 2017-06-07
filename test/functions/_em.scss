@@ -1,5 +1,5 @@
-@include test-module('em') {
-  @include test('should return em size based on specified size in pixels') {
+@include describe('em [function]') {
+  @include it('should return em size based on specified size in pixels') {
     $values: (16px, 16);
     $expected: 1em;
 
@@ -8,7 +8,7 @@
     }
   }
 
-  @include test('should return em size based on specified size and context in pixels') {
+  @include it('should return em size based on specified size and context in pixels') {
     $actual: em(16px, 16px);
     $expected: 1em;
 
