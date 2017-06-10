@@ -4,7 +4,7 @@ The core module contains a number of SASS variables/mixins/functions, and a Java
 
 ## SASS functions
 
-### em function
+### em
 Converts a pixel value into its `em` equivalent. Accepts a second "context" parameter, which is the context value to base the calculation on. The context parameter defaults to the value of `@silc-core--font-size`, which by default is `16px`.
 
 ```scss
@@ -12,7 +12,7 @@ em(16); // Returns 1em
 em(16, 32); // Return 2em
 ```
 
-### rem function
+### rem
 Converts a pixel value into its `rem` equivalent. The context for `rem` calculations is the root (html) element font size, which defaults to the value of `@silc-core--font-size`.
 
 ```scss
