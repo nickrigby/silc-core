@@ -9,6 +9,6 @@
     @return (strip-unit($size) / strip-unit($context-size)) * 1em;
 }
 
-@function rem($size, $context-size: $silc-core--font-size) {
-    @return (strip-unit($size) / strip-unit($context-size)) * 1rem;
+@function rem($size) {
+    @return (strip-unit($size) / strip-unit($silc-core--font-size)) * 1rem;
 }
