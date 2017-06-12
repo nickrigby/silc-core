@@ -2,7 +2,7 @@
   "name": "silc-core",
   "version": "0.4.0",
   "description": "Core components for the silc framework",
-  "main": "./dist/silc.core.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "mocha && tsc --outDir ./dist ./src/js/*.ts",
     "test": "mocha"
