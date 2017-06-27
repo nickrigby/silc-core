@@ -1,7 +1,7 @@
 @mixin media($breakpoint) {
-  @each $breakpoint-name, $breakpoint-width in $silc-core--breakpoints {
+  @each $breakpoint-name, $breakpoint-query in $silc-core--breakpoints {
     @if $breakpoint == $breakpoint-name {
-      @media (min-width: $breakpoint-width) {
+      @media #{$breakpoint-query} {
         @content;
       }
     }
